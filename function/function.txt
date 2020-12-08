@@ -1,6 +1,7 @@
 Pengbot library function
 ------------------------
 #include <Pengbot.h> //include Pengbot library
+Pengbot Pengbot; //Creat Pengbot object
 Pengbot.ready(); //initalize pengbot
 Pengbot.stop(); //stop
 Pengbot.forward(/* speed : 0 ~ 90 */); //forward
